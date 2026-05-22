@@ -1,12 +1,12 @@
-# (Replace_with_your_title) Cookbook
+# New Particle Formation ML at the SGP Cookbook
 
 [![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ARM-Development/arm-cookbook-template/main?labpath=notebooks)
 
-This ARM Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
+This ARM Cookbook covers the generation of a ML random forest model to classify NPF events at the ARM Southern Great Plains site. This includes ingesting data from the CPC, ultra-fine CPC, SMPS, and nano-SMPS. 
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This model can be used to classify if an NPF event occurred on a certain day by using the geometric mean diameter, its average, 25th percentile, and 75th percentile. 
 
 ## Authors
 
