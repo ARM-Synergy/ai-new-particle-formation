@@ -2,6 +2,8 @@
 
 # Aerosol Event Identification using Machine Learning at the Southern Great Plains Site (AIM-SGP)
 
+[![DOI](https://zenodo.org/badge/1244932597.svg)](https://doi.org/10.5281/zenodo.20938983)
+
 ![arms-race](/notebooks/images/aim_sgp_photo.jpg)
 
 ## [2026 ARM Summer School](https://arm-development.github.io/arm-summer-school-2026/) Project 
