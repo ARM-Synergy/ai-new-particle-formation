@@ -1,73 +1,18 @@
-# New Particle Formation ML at the SGP Cookbook
+<img src="/notebooks/images/arm_logo.png" width=500 alt="ARM Logo"></img>
 
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ARM-Development/arm-cookbook-template/main?labpath=notebooks)
+# Aerosol Event Identification using Machine Learning at the Southern Great Plains Site (AIM-SGP)
 
-This ARM Cookbook covers the generation of a ML random forest model to classify NPF events at the ARM Southern Great Plains site. This includes ingesting data from the CPC, ultra-fine CPC, SMPS, and nano-SMPS. 
+![arms-race](/notebooks/images/aim_sgp_photo.jpg)
 
-## Motivation
+## [2026 ARM Summer School](https://arm-development.github.io/arm-summer-school-2026/) Project 
 
-This model can be used to classify if an NPF event occurred on a certain day by using the geometric mean diameter, its average, 25th percentile, and 75th percentile. 
+Random Forest Model Development for automatic daily New Particle Formation (NPF) event classification
 
-## Authors
+## Project Scope
 
-[First Author](@first-author), [Second Author](@second-author), etc. *Acknowledge primary content authors here*
+- Gas-phase molecules undergo chemical and microphysical transformations to form new aerosol particles through nucleation and subsequent growth.
+- "Banana Curve" within Scanning Mobility Particle Sizer (SMPS) aerosol particle size distribution observations are a known signature of a new particle formation event.
+- Can a feature based classification of these events allow for automatic detection at the Southern Great Plains site?
 
-### Contributors
-
-<a href="https://github.com/ARM-Development/arm-cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ARM-Development/arm-cookbook-template" />
-</a>
-
-## Structure
-(State one or more sections that will comprise the notebook. E.g., *This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."* Then, describe each section below.)
-
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-(Add content for this section, e.g., "The foundational content includes ... ")
-
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-(Add content for this section, e.g., "Example workflows include ... ")
-
-## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
-
-### Running on Binder
-
-The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/), which enables the execution of a
-[Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Cookbooks chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
-and even change the example programs. You’ll see that the code cells
-have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
-
-### Running on Your Own Machine
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
-
-(Replace "arm-cookbook-example" with the title of your cookbooks)   
-
-1. Clone the `https://github.com/ARM-Development/arm-cookbook-example` repository:
-
-   ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/cookbook-example.git
-    ```  
-1. Move into the `arm-cookbook-example` directory
-    ```bash
-    cd arm-cookbook-example
-    ```  
-1. Create and activate your conda environment from the `environment.yml` file
-    ```bash
-    conda env create -f environment.yml
-    conda activate arm-cookbook-example
-    ```  
-1.  Move into the `notebooks` directory and start up Jupyterlab
-    ```bash
-    cd notebooks/
-    jupyter lab
-    ```
+## Final Presentation
+- [Link to Final Presentation](./NPF_Classification_RandomForest.pptx.pdf)
