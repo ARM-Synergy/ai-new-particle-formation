@@ -1,0 +1,34 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: N-Dimensional Auto-Clustering of Lidar Measurements to define Defacto Aerosol Types
+  description: 2026 ARM Big Open Data Summer School Project
+  github: https://github.com/ARM-Synergy/ndim-auto-cluster-lidar/
+  # keywords: []
+  authors:
+    - name: Ashlynne Gary
+      orcid: 0009-0001-7924-6657
+    - name: Gerardo Carrillo-Cardenas
+      orcid: 0000-0002-9481-8406
+    - name: Ruoyu (Rory) Zhang
+      orcid: 0009-0000-0932-4050
+    - name: Connor Flynn
+      orcid: 0000-0002-9182-6531
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Project Development
+      children:
+        - file: notebooks/CPCF_CPCUF.ipynb
+        - file: notebooks/NPF_smpsnano.ipynb
+        - file: notebooks/create_stats_summerSchool.ipynb
+        - file: notebooks/create_stats_summerSchool.ipynb
+        - file: sample/basic_figure_visualize.ipynb
+        - file: notebooks/random_forest_nph_prediction.ipynb
+site:
+  options:
+    logo: notebooks/images/arm_logo.png
+    footer_logos:
+        ARM: notebooks/images/arm_logo.png
